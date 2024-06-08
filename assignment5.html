@@ -1,0 +1,82 @@
+<!-- Assignment5 -->
+<!-- Nested Lists -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Favorite Movies</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            text-align: center;
+        }
+        ol {
+            list-style-type: decimal;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            background-color: #282c34;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+        }
+        li ul li {
+            background-color: transparent;
+            box-shadow: none;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #00ff00; text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;">My Top 5 Favorite Movies</h1>
+    <ol>
+        <li>
+            Baahubali
+            <ul>
+                <li>Year: 2015</li>
+                <li>Main Actors: Prabhas, Rana Daggubati</li>
+                <li>Description: An epic tale of a prince's quest to reclaim his throne from an evil usurper.</li>
+            </ul>
+        </li>
+        <li>
+            Avatar
+            <ul>
+                <li>Year: 2009</li>
+                <li>Main Actors: Sam Worthington, Zoe Saldana</li>
+                <li>Description: A paraplegic Marine is sent to the moon Pandora on a unique mission but becomes torn between following orders and protecting the world he feels is his home.</li>
+            </ul>
+        </li>
+        <li>
+            RRR
+            <ul>
+                <li>Year: 2022</li>
+                <li>Main Actors: N. T. Rama Rao Jr., Ram Charan</li>
+                <li>Description: A fictional story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.</li>
+            </ul>
+        </li>
+        <li>
+            Titanic
+            <ul>
+                <li>Year: 1997</li>
+                <li>Main Actors: Leonardo DiCaprio, Kate Winslet</li>
+                <li>Description: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</li>
+            </ul>
+        </li>
+        <li>
+            Interceptor
+            <ul>
+                <li>Year: 2022</li>
+                <li>Main Actors: Elsa Pataky, Luke Bracey</li>
+                <li>Description: An Army captain must use her years of tactical training and military expertise to save humanity from sixteen nuclear missiles launched at the U.S. as a violent coordinated attack simultaneously threatens her remote missile interceptor station.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
